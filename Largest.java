@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.arrays;
+import java.util.*;
 import java.lang.*;
 class Largest
 {
@@ -10,9 +11,9 @@ int[] a=new int[3];
 int i;
 for(i=0;i<3;i++)
 {
-a[i]=s.nextInt();
+a[i]=x.nextInt();
 }
-Array.sort(a);
+Arrays.sort(a);
   System.out.println(a[2]);
   
 }
