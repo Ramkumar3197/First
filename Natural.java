@@ -11,6 +11,7 @@ n=s.nextInt();
 while(i<n)
 {
 sum=sum+i;
+  i++;
 }
 System.out.println("");
 System.out.print("Sum of "+n+" Natural numbers = "+sum); 
